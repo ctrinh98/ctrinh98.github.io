@@ -17,11 +17,15 @@ p, li {
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
+div ul {
+	margin: 0px;
+	padding: 0px;
+}
+
 div ul li {
 	display: inline;
 	list-style-type: none;
 	margin: 20px;
-	padding: 0px;
 }
 
 div a {
