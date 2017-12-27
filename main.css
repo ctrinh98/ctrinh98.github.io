@@ -19,6 +19,7 @@ p, li {
 
 div {
 	display: inline-block;
+	list-style-type: none;
 }
 
 body {
