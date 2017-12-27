@@ -3,7 +3,7 @@ h1 {
 	text-align: center;
 	opacity: 1;
 	border-bottom: solid 2px rgba(255, 255, 255, 0.125);
-	font-size: 72px;
+	font-size: 144px;
 	margin-bottom: 0.8em;
 	padding-bottom: 0.4em;
 }
@@ -13,6 +13,6 @@ h2 {
 	font-size: 36px;
 }
 
-p {
+p, li {
 	font-family: 'Source Sans Pro', sans-serif;
 }
