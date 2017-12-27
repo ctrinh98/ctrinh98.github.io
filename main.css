@@ -17,6 +17,10 @@ p, li {
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
+div {
+	display: inline-block;
+}
+
 body {
 	margin: 50px 150px;
 	background-color: #fdfdfd;
