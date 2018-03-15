@@ -1,7 +1,7 @@
 # ctrinh98.github.io
 Christopher Trinh's personal / portfolio website.
 
-Access at: https://ctrinh98.github.io/
+Access at: https://ctrinh98.github.io/ or http://ctrinh.com/
 
 ## About
 This website serves as a portfolio website for my work.
