@@ -131,3 +131,13 @@ nav {
 .active {
     background-color: #4186C4;
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    outline-style: solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
