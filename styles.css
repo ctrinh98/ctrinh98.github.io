@@ -545,7 +545,7 @@ resume-colors {
     z-index: 500;
     left: 0;
     right: 0;
-    bottom: 0px;
+    bottom: -15px;
   }
   .main {
     padding: 20px 20px 20px 20px;
