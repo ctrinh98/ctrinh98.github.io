@@ -57,6 +57,7 @@ blockquote, q {
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
+  z-index: -5;
 }
 
 /* ---- div styling ---- */
@@ -74,6 +75,37 @@ resume-colors {
   background-color: #2c5a97;
   background-color: #429efc;
   background-color: #696969;
+}
+
+i {
+  border: solid white;
+  border-width: 0 7px 7px 0;
+  display: inline-block;
+  padding: 7px;
+}
+
+#scrolldown {
+  position: fixed;
+  z-index: 1 !important;
+  bottom: 25px;
+  color: white;
+  width: 200px;
+  text-align: center;
+  font-size: 1.25rem;
+  right: 50%;
+  margin-right: -100px;
+/*  opacity: 0.0;*/
+  transition: opacity 1s ease;
+}
+
+#scrolldown.change {
+  transition: all ease .5s;
+  opacity: 0;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
 }
 
 .hero {
@@ -157,17 +189,33 @@ resume-colors {
   border-left: 100vw solid transparent;
   border-right: 0vw solid transparent;
   border-bottom: 150px solid white;
+  margin-top: -9.35em;
+/*  z-index: 0;*/
+/*  overflow: hidden;*/
+  position: absolute;
+}
+
+.triangle-other {
+  width: 0;
+  height: 0;
+/*  margin-right: 0vw;*/
+  border-left: 0vw solid transparent;
+  border-right: 100vw solid transparent;
+  border-top: 150px solid transparent;
+/*  position: absolute;*/
+/*  margin-top: -50px;*/
 }
 
 
 
 .triangle-invert {
-    width: 0;
-    height: 0;
-    margin-right: 0vw;
-    border-right: 100vw solid transparent;
-    border-left: 0vw solid transparent;
-    border-bottom: 150px solid #4a95fa;
+  width: 0;
+  height: 0;
+  margin-right: 0vw;
+  border-right: 100vw solid transparent;
+  border-left: 0vw solid transparent;
+  border-bottom: 150px solid #4a95fa;
+  margin-bottom: -1px;
 }
 
 .triangle-wrapper {
@@ -181,12 +229,13 @@ resume-colors {
 }
 
 .triangle-flip {
-    width: 0;
-    height: 0;
-    margin-right: 0vw;
-    border-right: 100vw solid transparent;
-    border-left: 0vw solid transparent;
-    border-top: 150px solid #4a95fa;
+  width: 0;
+  height: 0;
+  margin-right: 0vw;
+  border-right: 100vw solid transparent;
+  border-left: 0vw solid transparent;
+  border-top: 150px solid #4a95fa;
+  margin-top: -1px;
 }
 
 .spacer {
@@ -240,7 +289,7 @@ resume-colors {
     right: 0;
     bottom: -15px;
   }
-    .main {
+  .main {
     padding: 50px 150px 50px 150px;
     font-family: Source Sans Pro, serif;
   }
@@ -338,7 +387,7 @@ resume-colors {
     z-index: 500;
     left: 0;
     right: 0;
-    bottom: -15px;
+    bottom: 0;
   }
   .main {
     padding: 25px 100px 25px 100px;
@@ -548,12 +597,12 @@ resume-colors {
     bottom: -1em;
   }
   .main {
-    padding: 20px 20px 20px 20px;
+    padding: 20px 30px 20px 30px;
     font-family: Source Sans Pro, serif;
   }
   .main-invert {
     background-color: #4a95fa;
-    padding: 20px 20px 20px 20px;
+    padding: 20px 30px 20px 30px;
     font-family: Source Sans Pro, serif;
   /*  background-color: whitesmoke;*/
   }
