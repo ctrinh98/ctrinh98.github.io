@@ -58,6 +58,7 @@ blockquote, q {
   background-position: 50% 50%;
   background-repeat: no-repeat;
   z-index: -5;
+  box-shadow: 0 4px 10px 0px gray;
 }
 
 /* ---- div styling ---- */
