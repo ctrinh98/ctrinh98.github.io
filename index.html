@@ -1,163 +1,187 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Christopher Trinh</title>
-    <script src="https://cdn.jsdelivr.net/npm/typeit@5.10.1/dist/typeit.min.js"></script>
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source Sans Pro|Nunito|etc" type="text/css">
-    <link rel="stylesheet" href="styles.css" type="text/css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <title>Christopher Trinh | Software & Web Developer</title>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet">
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicons/site.webmanifest">
+    <link rel="mask-icon" href="assets/favicons/safari-pinned-tab.svg" color="#213963">
+    <link rel="shortcut icon" href="assets/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#213963">
+    <meta name="msapplication-config" content="assets/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#213963">
   </head>
   <body>
-    <a id="top" title="top of page"></a>
-    <div class="panel">
-<!--      <h1 id="intro"></h1>-->
-<!--      <h1 id="desc"></h1>-->
-      <h1 id="intr"></h1>
-      <h2 id="desc"></h2>
-    </div>
-    <script>
-      new TypeIt('#intro', {
-        speed: 50,
-        deleteSpeed: 60,
-        autoStart: false
-        })
-        .type("Hey, I'm Chris!")
-        .pause(750)
-        .break()
-        .type(" I do web development")
-        .pause(1000)
-        .delete(15)
-        .pause(400)
-        .type(' app development')
-        .pause(1000)
-        .delete(15)
-        .pause(400)
-        .type(' game development')
-        .pause(1000)
-        .delete(16)
-        .pause(1250)
-        .options({cursor: false})
-        .type(' full-stack development.')
-    </script>
-    <script>
-      new TypeIt('#intr', {
-        speed: 50,
-        deleteSpeed: 60,
-        cursor: false,
-        autoStart: false
-        })
-        .type("Christopher Trinh.")
-    </script>
-    <script>
-      new TypeIt('#desc', {
-        speed: 50,
-        deleteSpeed: 60,
-        startDelay: 1750,
-        cursor: false,
-        autoStart: false
-        })
-        .type("Programmer.")
-        .pause(400)
-        .type(' Writer.')
-        .pause(400)
-        .type(' Optimist.')
-        .pause(400)
-        .options({cursor: false})
-    </script>
-    <div id="particles-js"></div>
-    
-    <!-- particles.js container -->
-<!--    <div id="particles-js"></div>-->
+    <!-- <h1>Hello, world!</h1> -->
+    <nav class="navbar navbar-expand-md navbar-custom Top">
+      <a class="navbar-brand pl-3" href="/">Christopher Trinh</a>
+      <button class="navbar-toggler custom-toggler mr-4" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-<!--
-    <div class="triangle-wrapper-top" style="overflow: hidden">
-      <div class="triangle-other"></div>
-      <div class="triangle"></div>
-    </div>
--->
-    <div id="scrolldown">
-      <i class="arrow down"></i>
-    </div>
-<!--    <div style="height: 10px; opacity: 0.75; background-color: #3974c6; box-shadow: 0 4px 10px 0px gray;"></div>-->
-    <div class="main">
-<!--      <div class="spacer"></div>-->
-      <div class="spacer"></div>
-<!--      <p>hi</p>-->
-      <h1>About Me</h1>
-      <hr>
-      <p>
-        Hey! I'm Chris, and I'm a computer science major going into my junior year at Boston University.
-      </p>
-      <p>
-        In school, I've been very fortunate to have had the opportunity to serve as a Course Assistant for CS 111 and as a Teaching Fellow for CS 103. The past year especially has led to the fostering of a great love of learning and teaching, and helping others is a great way for me to reinforce the concepts for both me and the students I teach.
-      </p>
-      <p>
-        I've been programming since I started middle school! In my free time, I enjoy writing, drawing, and playing video games.
-      </p>
-      <div class="spacer"></div>
-    </div>
-    <div class="triangle-wrapper-invert" style="overflow: hidden">
-      <div class="triangle-invert"></div>
-    </div>
-    <div class="main-invert">
-      <h1>Projects</h1>
-      <hr>
-      <h2>BU Shuttle</h2>
-      <p>
-        A mobile app for iOS and Android that retrieves arrival and departure information for the BU Shuttle while putting a focus on simplicity and accessibility. Built with Javascript and Google's Flutter cross-platform mobile framework. <em>[in development, placeholder name]</em>
-      </p>
-      <div class="pspacer"></div>
-      
-      <button class="collapsible">Project BUN</button>
-      <div class="content">
-        <img src="assets/images/projectbun.gif">
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-4 mt-md-0 justify-content-end w-100 pr-5 pl-4">
+          <li class="nav-item">
+            <a class="nav-link" href="about/">About<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio/">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="skills/" tabindex="-1" aria-disabled="true">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact/">Contact</a>
+          </li>
+        </ul>
       </div>
-      
-      <script>
-      var coll = document.getElementsByClassName("collapsible");
-      var i;
+    </nav>
+    <!-- Mobile Navbar -->
 
-      for (i = 0; i < coll.length; i++) {
-        coll[i].addEventListener("click", function() {
-          this.classList.toggle("active");
-          var content = this.nextElementSibling;
-          if (content.style.maxHeight){
-            content.style.maxHeight = null;
-          } else {
-            content.style.maxHeight = content.scrollHeight + "px";
-          } 
-        });
-      }
-      </script>
-      
-      <p>
-        A single-level platformer featuring a bunny trying to save his classmate's final project. Built with GameMaker Studio 1.4. <em>[in development, placeholder name]</em>
-      </p>
-      <div class="spacer"></div>
-      <h2>Personal Website</h2>
-      <p>A website designed to serve as a portfolio of my work and also as a place to talk about who I am and what I do. You're looking at it right now! You can find the old versions of my website archived <a href="archive/index.html">here</a>. Built with HTML / CSS / JS using Brackets. <em>[last updated June 17, 2018]</em></p>
-    </div>
-    <div class="triangle-wrapper-end" style="overflow: hidden;">
-      <div class="triangle-flip"></div>
-    </div>
-    <div class="main">
-      <h1>Contact Me</h1>
-        <hr>
-      <div class="contact">
-        <a href="assets/files/resume.pdf" target="_blank"><img src="assets/images/icons/resume.png" height="54px" style="padding-bottom: 20px;"></a>
-        <a href="https://github.com/ctrinh98" target="_blank"><img src="assets/images/icons/github.png" height="60px"></a>
-        <a href="https://www.linkedin.com/in/christophertrinh98" target="_blank"><img src="assets/images/icons/linkedin.png" height="60px"></a>
-        <a href="mailto:ctrinh@bu.edu"><img src="assets/images/icons/mail.png" height="60px"></a>
+
+    <div class="wrapper Container">
+
+      <!-- Sidebar -->
+      <nav id="sidebar" class="Left justify-content-end">
+        <div class="sidebar-header">
+            <a href="/"><img src="assets/images/me.png" height="150"/></a>
+            <a href="/"><h1>Christopher Trinh</h1></a>
+            <h2>Software & Web Developer</h2>
+        </div>
+
+        <ul class="list-unstyled components">
+            <!-- <p>Software and Web Developer</p> -->
+            <li>
+                <a href="about/">About</a>
+            </li>
+            <li>
+                <a href="portfolio/">Portfolio</a>
+            </li>
+            <li>
+                <a href="skills/">Skills</a>
+            </li>
+            <li>
+                <a href="contact/">Contact</a>
+            </li>
+        </ul>
+      </nav>
+
+      <div id="opening">
+        <h1 class="display-5">How's it going?</h1>
+        <hr />
+        <p class="lead">
+          Christopher Trinh is a software engineer, full-stack web developer,
+          and game development hobbyist. Driven by the encouragement of my
+          friends and peers, I hope to keep making cool ideas that help and
+          inspire people to be their best selves.
+        </p>
+        <!-- <hr class="my-4">
+        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a> -->
+      </div>
+
+      <!-- Page Content -->
+      <div id="content" class="Middle">
+        <h2 style="padding-bottom: 0.75em;">Recent Projects</h2>
+        <!-- <h3><a href="portfolio/feelin/">feelin</a></h3>
+        <p>
+          mobile app that charts your emotions
+        </p> -->
+        <img style="border-radius:5px;width:100%;margin-bottom:1.5em;box-shadow: 5px 5px 5px #ddd;" src="assets/images/codestyle-banner.png" />
+        <h3><a href="portfolio/codestyle/">CodeStyle</a></h3>
+        <h3 style="padding-top:0.25em;padding-bottom:0em;" class="blurb">&#62; &#160; Read your code better than ever before.</h3>
+        <p style="padding-bottom:1em;">
+          CodeStyle is a web application that allows users to get suggestions on
+          how they can make their Python code more readable and learn good code
+          style in the process.
+        </p>
+        <img style="border-radius:5px;width:100%;margin-bottom:1.5em;box-shadow: 5px 5px 5px #ddd;" src="assets/images/bus-mobile-banner.png" />
+        <h3><a href="portfolio/bus-mobile/">BUS Mobile</a></h3>
+        <h3 style="padding-top:0.25em;padding-bottom:0em;" class="blurb">&#62; &#160; Track the BU Shuttle down to the second.</h3>
+        <p>
+          BUS Mobile is a mobile application that filters the Boston University
+          shuttle system by stop and gives estimates down to the second for when the bus
+          will arrive for each stop.
+        </p>
+        <a class="btn btn-outline-custom btn-lg" href="portfolio/" role="button">See more projects</a>
+          <!-- We'll fill this with dummy content -->
+          <!-- particles.js container -->
+
+
+          <!-- <h1>Hi, I'm Mumflr.</h1> -->
+          <!-- <h2>I'm a third-year student specialized in mobile app and web development.</h2> -->
+          <!-- <h2>Thank you for taking the time to check me out!</h2> -->
       </div>
     </div>
-<!--    <p style="margin-bottom: 0px; padding-bottom: 0px; background-color: #4a95fa; color: white; font-family: Source Sans Pro, serif; text-align: center;">&copy; Christopher Trinh</p>-->
-    <!-- scripts -->
-    <script src="js/particles.js"></script>
-    <script src="js/app.js"></script>
-    <script src="jquery-3.3.1.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.21/jquery-ui.min.js" type="text/javascript"></script>
-    <script type="text/javascript" src="main.js"></script>
+
+    <div id="closing">
+      <ul class="list-inline">
+        <!-- Email -->
+        <li class="list-inline-item">
+          <a href="mailto:ctrinh@bu.edu">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path fill="#000" d="M12 12.713l-11.985-9.713h23.97l-11.985 9.713zm0 2.574l-12-9.725v15.438h24v-15.438l-12 9.725z"/>
+            </svg>
+          </a>
+        </li>
+        <!-- Github -->
+        <li class="list-inline-item">
+          <a href="https://github.com/ctrinh98/">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path fill="#000" d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+            </svg>
+          </a>
+        </li>
+        <!-- LinkedIn -->
+        <li class="list-inline-item">
+          <a href="https://www.linkedin.com/in/ctrinh98">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path fill="#000" d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"/>
+            </svg>
+          </a>
+        </li>
+        <!-- Resume -->
+        <li class="list-inline-item">
+          <a href="assets/files/ChristopherTrinhResume.pdf">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path fill="#000" d="M13.744 8s1.522-8-3.335-8h-8.409v24h20v-13c0-3.419-5.247-3.745-8.256-3zm.256 11h-8v-1h8v1zm4-3h-12v-1h12v1zm0-3h-12v-1h12v1zm-3.432-12.925c2.202 1.174 5.938 4.883 7.432 6.881-1.286-.9-4.044-1.657-6.091-1.179.222-1.468-.185-4.534-1.341-5.702z"/>
+            </svg>
+          </a>
+        </li>
+        <!-- Spotify -->
+        <!-- <li class="list-inline-item">
+          test
+        </li> -->
+      </ul>
+      <p>Christopher Trinh 2019</p>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <!-- Custom JavaScript -->
+    <script type="text/javascript" src='js/main.js'></script>
+    <!-- <script src="js/particles.js"></script>
+    <script src="js/app.js"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> -->
   </body>
 </html>

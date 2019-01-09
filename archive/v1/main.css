@@ -1,0 +1,143 @@
+/* Large */
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Medium screens */
+@media all and (max-width: 1000px) {
+  header {
+    /* When on medium sized screens, we center it by evenly distributing empty space around items */
+    display: inline-block;
+    justify-content: space-between;
+  }
+}
+
+/* Small screens */
+@media all and (max-width: 500px) {
+  header {
+    /* On small screens, we are no longer using row direction but column */
+    display: inherit;
+    flex-direction: column;
+  }
+}
+
+header div {
+    min-width: 335px;
+}
+
+#first, h1 {
+	font-family: 'Raleway', sans-serif;
+	text-align: left;
+	opacity: 1;
+	font-size: 40px;
+	margin-bottom: 0em;
+	padding-bottom: 0em;
+    color: #444444;
+    display: inline;
+}
+
+#second, h1 {
+	font-family: 'Raleway', sans-serif;
+	text-align: left;
+	opacity: 1;
+	font-size: 40px;
+	margin-bottom: 0em;
+	padding-bottom: 0em;
+    color: #4186C4;
+    display: inline;
+}
+
+h2 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 28px;
+    color: #4186C4;
+}
+
+p, li {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+div ul {
+    text-align: center;
+	// margin-left: -15px;
+	padding-top: 1em;
+}
+
+div ul li {
+	display: inline;
+	list-style-type: none;
+	margin: 20px;
+}
+
+div a {
+	color: inherit;
+}
+
+body {
+	margin: 50px 150px;
+	background-color: #fdfdfd;
+    // background-image: url("bnb.png");
+    // background-size: 10%;
+}
+
+h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: left;
+    font-size: 24px;
+    border-bottom: solid 0px;
+    padding-bottom: 1em;
+    margin-left: 0em;
+    margin-top: 0.4em;
+    color: #444444;
+}
+
+nav {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+#navul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;    
+}
+
+#navli {
+    float: left;
+}
+
+#navli a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navli a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+#navli a.active {
+    color: white;
+    background-color: #4186C4;
+}
+
+.active {
+    background-color: #4186C4;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    outline-style: solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
