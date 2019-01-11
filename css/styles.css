@@ -243,6 +243,17 @@ ul {
   text-indent: -1.3em;
 }
 
+.involvements ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 2em;
+  text-indent: -1.3em;
+}
+
+.involvements ul li {
+  text-indent: 0em;
+}
+
 .winner {
   color: orange;
   font-weight: 700;
