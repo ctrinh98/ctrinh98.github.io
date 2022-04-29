@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Sidebar.css'
 import logo from './headshot.png';
+import resume from './ChristopherTrinhResume.pdf'
 
 function remsToPixels(rems) { 
     return Math.round(rems * 16);
@@ -36,7 +37,7 @@ export default class Sidebar extends Component {
                 <span class="inline-separator">{'\u0020'}</span>
                 <span class="inline-separator">{'\u00b7'}</span>
                 <span class="inline-separator">{'\u0020'}</span>
-                <a href="./ChristopherTrinhResume.pdf" target="_blank" rel="noopener noreferrer">
+                <a href={resume} target="_blank" rel="noopener noreferrer">
                 Resume
                 </a>
               </p>
