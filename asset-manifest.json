@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/ctrinh98.github.io/static/css/main.11442051.css",
+    "main.js": "/ctrinh98.github.io/static/js/main.7397aa24.js",
+    "static/js/787.bc7d429a.chunk.js": "/ctrinh98.github.io/static/js/787.bc7d429a.chunk.js",
+    "static/media/headshot.png": "/ctrinh98.github.io/static/media/headshot.8cb53198223eada77d65.png",
+    "static/media/suisei.png": "/ctrinh98.github.io/static/media/suisei.a1d4c3d780ebe2e7da2a.png",
+    "static/media/web.gif": "/ctrinh98.github.io/static/media/web.1c0d08ffb6bf26d9f8f2.gif",
+    "static/media/game.gif": "/ctrinh98.github.io/static/media/game.b9b851bfa5d83376c77a.gif",
+    "static/media/mobile.gif": "/ctrinh98.github.io/static/media/mobile.19830708f4d39df303dd.gif",
+    "static/media/work.gif": "/ctrinh98.github.io/static/media/work.950b2d14208f5a3fc8e5.gif",
+    "index.html": "/ctrinh98.github.io/index.html",
+    "main.11442051.css.map": "/ctrinh98.github.io/static/css/main.11442051.css.map",
+    "main.7397aa24.js.map": "/ctrinh98.github.io/static/js/main.7397aa24.js.map",
+    "787.bc7d429a.chunk.js.map": "/ctrinh98.github.io/static/js/787.bc7d429a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.11442051.css",
+    "static/js/main.7397aa24.js"
+  ]
+}
